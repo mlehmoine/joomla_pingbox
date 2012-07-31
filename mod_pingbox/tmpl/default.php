@@ -1,0 +1,3 @@
+<?php // no direct access
+defined('_JEXEC') or die('Restricted access'); ?>
+<object id="<?php echo $params->get('object_id') ?>" type="application/x-shockwave-flash" data="http://wgweb.msg.yahoo.com/badge/Pingbox.swf" width="<?php echo $params->get('pingbox_width') ?>" height="<?php echo $params->get('pingbox_height') ?>"><param name="movie" value="http://wgweb.msg.yahoo.com/badge/Pingbox.swf" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="wid=<?php echo $params->get('wid_id') ?>" /></object>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>PingBox</name>
+	<author>Mark Lehmoine</author>
+	<creationDate>February 2009</creationDate>
+	<copyright>Copyright (C) 2009 Lehmoine.org. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>mark@lehmoine.org</authorEmail>
+	<authorUrl>lehmoine.org</authorUrl>
+	<version>1.5.0</version>
+	<description>Adds a Yahoo! Messenger Pingbox to your Joomla 1.5 Site.</description>
+	<files>
+		<filename module="mod_pingbox">mod_pingbox.php</filename>
+	</files>
+	<params>
+		<param name="object_id" type="text" default="" label="Object ID" description="Pingbox Object ID" />
+		<param name="wid_id" type="text" default="" label="Widget ID" description="Widget ID" />
+		<param name="pingbox_width" type="text" default="" label="width" description="width" />
+		<param name="pingbox_height" type="text" default="" label="height" description="height" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>
